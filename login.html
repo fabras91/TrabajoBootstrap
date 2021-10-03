@@ -10,9 +10,12 @@
     <link rel="stylesheet" href="style.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@300;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/67ca5656f9.js" crossorigin="anonymous"></script>
+    
 
-    <title>Hello, world!</title>
+    <title>Aula Virtual - Inicio de Sesión</title>
   </head>
   <body class="bg-dark">
     <section>
@@ -26,18 +29,23 @@
                 </div>
                 <div class="px-lg-5 py-lg-4 p-4">
                   <h1 class="font-weight-bold mb-4">Bienvenido al Aula Virtual</h1>
-                  <form>
-                    <div class="mb-3">
+                  <form class="mb-5">
+                    <div class="mb-4">
                       <label for="exampleInputEmail1" class="form-label font-weight-bold">Correo Institucional</label>
                       <input type="email" class="form-control bg-dark-x border-0" placeholder="Ingresa tu correo institucional" id="exampleInputEmail1" aria-describedby="emailHelp">                      
                     </div>
-                    <div class="mb-3">
+                    <div class="mb-4">
                       <label for="exampleInputPassword1" class="form-label font-weight-bold">Contraseña</label>
                       <input type="password" class="form-control bg-dark-x border-0 mb-2" placeholder="Ingresa tu contraseña" id="exampleInputPassword1">
                       <a href="#" id="emailHelp" class="form-text text-muted text-decoration-none">¿Olvidaste tu contraseña?</a>
                     </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <button type="submit" class="btn btn-primary w-100">Iniciar Sesión</button>
                   </form>
+                  <p class="font-weight-bold text-center text-muted">O Inicia Sesión con</p>
+                  <div class="d-flex justify-content-around">
+                    <button type="submit" class="btn btn-outline-light flex-grow-1 mr-2">Google</button>
+                    <button type="submit" class="btn btn-outline-light flex-grow-1 ml-2">Facebook</button>
+                  </div>
                 </div>
             </div>
         </div>

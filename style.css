@@ -18,7 +18,7 @@ body{
     background-color: var(--dark-x);
 }
 
-.form-control{
+.form-control, .btn{
     min-height: 3.125rem;
     line-height: initial;
 }
